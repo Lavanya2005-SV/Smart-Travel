@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Travel | Explore the World</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/images/logo.png">
+<!-- AOS CSS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+
+<body>
+<header>
+    <a href="#" class="logo">
+    <img src="assets/images/logo.png" alt="SmartTravel Logo">
+    <span>SmartTravel</span>
+    </a>
+    <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#destinations">DESTINATION</a>
+        <a href="packages.html">PACKAGES</a>
+        <a href="#ai">AI ASSISTANT</a>
+        <a href="#reviews">REVIEWS</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+</header>
+
+
+<!-- section -->
+<section class="hero" id="home">
+    <div class="overlay"></div>
+
+    <div class="hero-content" data-aos="fade-up">
+
+        <h4>✈️ Your Next Adventure Awaits</h4>
+
+        <h1>
+            Explore the World with
+            <span>SmartTravel</span>
+        </h1>
+
+        <p>
+            Book flights, hotels and tour packages with ease.
+            Discover breathtaking destinations and create unforgettable memories.
+        </p>
+
+        <!-- Trust Badges -->
+        <div class="hero-badges">
+            <span><i class="fa-solid fa-star"></i> 4.9 Rating</span>
+            <span><i class="fa-solid fa-earth-asia"></i> 100+ Destinations</span>
+            <span><i class="fa-solid fa-users"></i> 50K+ Travelers</span>
+        </div>
+
+        <!-- Buttons -->
+        <div class="hero-buttons">
+            <a href="#packages" class="explore-btn">
+                Plan Your Trip
+            </a>
+
+            <a href="packages.html" class="package-btn">
+                <i class="fa-solid fa-suitcase"></i>
+                View Packages
+            </a>
+        </div>
+
+        <!-- Booking Box -->
+        <div class="booking-box" data-aos="fade-up">
+
+            <h3>Find Your Perfect Trip</h3>
+
+            <div class="field">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text"
+                       placeholder="Enter Destination"
+                       required>
+            </div>
+
+            <div class="field">
+                <i class="fa-solid fa-calendar-days"></i>
+                <input type="date" min="">
+            </div>
+
+            <div class="field">
+                <i class="fa-solid fa-calendar-days"></i>
+                <input type="date" min="">
+            </div>
+
+            <div class="field">
+                <i class="fa-solid fa-user-group"></i>
+
+                <select>
+                    <option>1 Guest</option>
+                    <option>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5+ Guests</option>
+                </select>
+            </div>
+
+            <button class="search-btn"
+                onclick="window.location.href='packages.html'">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Search Trips
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Scroll Down -->
+    <a href="#destinations" class="scroll-down">
+        <i class="fa-solid fa-angles-down"></i>
+    </a>
+
+</section>
+
+<!-- popular destinations -->
+ <section class="destination" id="destinations" data-aos="fade-up">
+
+<h2>Popular Destinations</h2>
+<p>Choose your favorite destination and start your journey.</p>
+
+<div class="destination-box">
+
+<div class="card">
+<img src="assets/images/destinations/goa.jpg" alt="">
+<h3>Goa</h3>
+<p><i class="fa-solid fa-location-dot"></i> India</p>
+<h4>₹14,999</h4>
+<a href="#">Explore</a>
+</div>
+
+<div class="card">
+<img src="assets/images/destinations/bali.jpg" alt="">
+<h3>Bali</h3>
+<p><i class="fa-solid fa-location-dot"></i> Indonesia</p>
+<h4>₹29,999</h4>
+<a href="#">Explore</a>
+</div>
+
+<div class="card">
+<img src="assets/images/destinations/maldives.jpg" alt="">
+<h3>Maldives</h3>
+<p><i class="fa-solid fa-location-dot"></i> Maldives</p>
+<h4>₹39,999</h4>
+<a href="#">Explore</a>
+</div>
+
+<div class="card">
+<img src="assets/images/destinations/paris.jpg" alt="">
+<h3>Paris</h3>
+<p><i class="fa-solid fa-location-dot"></i> France</p>
+<h4>₹59,999</h4>
+<a href="#">Explore</a>
+</div>
+
+<div class="card">
+<img src="assets/images/destinations/switzerland.jpg" alt="">
+<h3>Switzerland</h3>
+<p><i class="fa-solid fa-location-dot"></i> Switzerland</p>
+<h4>₹89,999</h4>
+<a href="#">Explore</a>
+</div>
+
+<div class="card">
+<img src="assets/images/destinations/dubai.jpg" alt="">
+<h3>Dubai</h3>
+<p><i class="fa-solid fa-location-dot"></i> UAE</p>
+<h4>₹34,999</h4>
+<a href="#">Explore</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- why choose us -->
+
+
+<section class="why">
+
+<div class="why-left">
+
+<span>WHY CHOOSE US</span>
+
+<h2>Why Choose SmartTravel?</h2>
+
+<p>
+We make every journey easier with secure booking,
+trusted travel partners and a smart virtual assistant.
+</p>
+
+<a href="#" class="btn">
+Explore Features →
+</a>
+
+</div>
+
+<div class="why-right">
+
+<div class="box">
+
+<i class="fa-solid fa-plane-departure"></i>
+
+<h3>Easy Booking</h3>
+
+</div>
+
+<div class="box">
+
+<i class="fa-solid fa-robot"></i>
+
+<h3>AI Assistant</h3>
+
+</div>
+
+<div class="box">
+
+<i class="fa-solid fa-credit-card"></i>
+
+<h3>Secure Payment</h3>
+
+</div>
+
+<div class="box">
+
+<i class="fa-solid fa-earth-americas"></i>
+
+<h3>Worldwide Tours</h3>
+
+</div>
+
+<div class="box">
+
+<i class="fa-solid fa-headset"></i>
+
+<h3>24/7 Support</h3>
+
+</div>
+
+<div class="box">
+
+<i class="fa-solid fa-hotel"></i>
+
+<h3>Trusted Hotels</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Featured Tour Packages -->
+
+<section class="featured-packages" id="packages">
+
+    <div class="package-title">
+        <h2>Featured Tour Packages</h2>
+        <p>Discover our handpicked travel experiences for unforgettable journeys.</p>
+    </div>
+
+    <div class="package-list" data-aos="fade-up">
+
+        <!-- Bali -->
+
+        <div class="package-card">
+
+            <img src="assets/images/packages/bali-packages.jpg" alt="Bali">
+
+            <div class="package-info">
+
+                <div class="top">
+                    <h3>Bali Escape</h3>
+                    <span>⭐ 4.8</span>
+                </div>
+
+                <p><i class="fa-solid fa-calendar-days"></i> 5 Days / 4 Nights</p>
+
+                <p><i class="fa-solid fa-plane"></i> Flight • Hotel • Breakfast</p>
+
+                <p><i class="fa-solid fa-circle-check"></i> Free Cancellation</p>
+
+                <div class="bottom">
+                    <h4>₹28,999</h4>
+                    <a href="booking.html">Book Now</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Maldives -->
+
+        <div class="package-card">
+
+            <img src="assets/images/packages/maldives-packages.jpg" alt="Maldives">
+
+            <div class="package-info">
+
+                <div class="top">
+                    <h3>Maldives Luxury</h3>
+                    <span>⭐ 4.9</span>
+                </div>
+
+                <p><i class="fa-solid fa-calendar-days"></i> 4 Days / 3 Nights</p>
+
+                <p><i class="fa-solid fa-hotel"></i> Resort • Cruise • Breakfast</p>
+
+                <p><i class="fa-solid fa-circle-check"></i> Instant Confirmation</p>
+
+                <div class="bottom">
+                    <h4>₹49,999</h4>
+                    <a href="booking.html">Book Now</a>
+                </div>
+
+            </div>
+
+        </div>
+    <div class="package-card">
+            <img src="assets/images/packages/paris-packages.jpg" alt="Paris">
+            <div class="package-info">
+                <div class="top">
+                    <h3>Paris Getaway</h3>
+                    <span>⭐ 4.7</span>
+                </div>
+                <p><i class="fa-solid fa-calendar-days"></i> 6 Days / 5 Nights</p>
+                <p><i class="fa-solid fa-plane"></i> Flight • Hotel • Breakfast</p>
+                <p><i class="fa-solid fa-circle-check"></i> Free Cancellation</p>
+                <div class="bottom">
+                    <h4>₹79,999</h4>
+                    <a href="booking.html">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="view-all">
+        <a href="packages.html">View All Packages →</a>
+    </div>
+</section>
+ <!-- Customer Reviews -->
+<section class="review" id="reviews">
+
+<h2>What Our Travelers Say</h2>
+<p>Trusted by thousands of happy travelers.</p>
+
+<div class="review-container">
+
+    <!-- Review 1 -->
+    <div class="review-card" data-aos="flip-left">
+
+        <img src="assets/images/users/user-1.jpg" alt="">
+
+        <h3>Laya S.
+            <i class="fa-solid fa-circle-check verified"></i>
+        </h3>
+
+        <div class="stars">★★★★★</div>
+
+        <p>
+            "Booking with SmartTravel was smooth and hassle-free.
+            The hotel and sightseeing arrangements were excellent."
+        </p>
+
+    </div>
+
+    <!-- Review 2 -->
+    <div class="review-card" data-aos="flip-left">
+
+        <img src="assets/images/users/user-2.jpg" alt="">
+
+        <h3>Vijay S.
+            <i class="fa-solid fa-circle-check verified"></i>
+        </h3>
+
+        <div class="stars">★★★★★</div>
+
+        <p>
+            "Affordable tour packages with friendly customer support.
+            Highly recommended for family trips."
+        </p>
+
+    </div>
+
+    <!-- Review 3 -->
+    <div class="review-card" data-aos="flip-left">
+
+        <img src="assets/images/users/user-3.jpg" alt="">
+
+        <h3>Priya M.
+            <i class="fa-solid fa-circle-check verified"></i>
+        </h3>
+
+        <div class="stars">★★★★★</div>
+
+        <p>
+            "Wonderful travel experience with well-planned itinerary.
+            Everything was perfectly organized."
+        </p>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- AI Assistant Section -->
+
+<!-- AI Assistant Section -->
+
+<section class="ai-section" id="ai">
+
+    <div class="ai-content">
+
+        <h2>
+            SmartTravel AI Assistant 🤖
+        </h2>
+
+        <p>
+            Need help choosing a destination or booking your trip?
+            Our AI Assistant is here to guide you anytime.
+        </p>
+
+        <button onclick="openChat()">
+            Open AI Assistant
+        </button>
+
+    </div>
+
+</section>
+ <!-- Newsletter -->
+
+<section class="newsletter">
+
+    <div class="newsletter-content">
+
+        <h2>Stay Updated</h2>
+
+        <p>
+            Subscribe to receive exclusive travel deals,
+            destination updates and special offers.
+        </p>
+
+        <form class="newsletter-form">
+
+            <input type="email"
+            placeholder="Enter your email address" required>
+
+            <button type="submit">
+                Subscribe
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+<!-- Footer -->
+
+<footer class="footer" id="Contact">
+
+    <div class="footer-container">
+
+        <!-- Company -->
+
+        <div class="footer-box">
+
+            <h2>SmartTravel</h2>
+
+            <p>
+                Explore the world with SmartTravel.
+                Book your dream vacation with ease
+                and enjoy unforgettable experiences.
+            </p>
+
+        </div>
+
+        <!-- Quick Links -->
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <a href="#">Home</a>
+            <a href="#">Destinations</a>
+            <a href="#">Packages</a>
+            <a href="#">Contact</a>
+
+        </div>
+
+        <!-- Contact -->
+
+        <div class="footer-box">
+
+            <h3>Contact Us</h3>
+
+            <p><i class="fa-solid fa-location-dot"></i> Chennai, India</p>
+
+            <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+
+            <p><i class="fa-solid fa-envelope"></i> info@smarttravel.com</p>
+
+        </div>
+
+        <!-- Social -->
+
+        <div class="footer-box">
+
+            <h3>Follow Us</h3>
+
+            <div class="social">
+
+                <a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
+
+                <a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a>
+
+                <a href="javascript:void(0)"><i class="fa-brands fa-x-twitter"></i></a>
+
+                <a href="javascript:void(0)"><i class="fa-brands fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 SmartTravel. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+<!--virtual assisstant-->
+
+<div class="chat-icon" onclick="openChat()">
+    <i class="fa-solid fa-robot"></i>
+</div>
+
+
+<!-- Chat Box -->
+
+<div class="chat-box" id="chatBox">
+
+    <div class="chat-header">
+
+        <span>
+            🤖 SmartTravel Assistant
+        </span>
+
+        <i class="fa-solid fa-xmark" onclick="closeChat()"></i>
+
+    </div>
+
+
+    <div class="chat-body" id="chatBody">
+
+        <div class="bot-msg">
+
+            Hello 👋 <br><br>
+
+            I'm SmartTravel Assistant ✈️<br><br>
+
+            You can ask me about:
+
+            <br><br>
+
+            • Tour Packages<br>
+            • Pricing<br>
+            • Destinations<br>
+            • Booking<br>
+            • Hotels<br>
+            • Flights
+
+        </div>
+
+    </div>
+
+
+    <div class="chat-input">
+
+        <input 
+        type="text" 
+        id="userInput"
+        placeholder="Type your question...">
+
+
+        <button onclick="sendMessage()">
+            Send
+        </button>
+
+    </div>
+
+</div>
+     
+<script>
+// Open Chat
+
+function openChat(){
+
+    document
+    .getElementById("chatBox")
+    .classList.add("show");
+
+}
+
+
+
+// Close Chat
+
+function closeChat(){
+
+    document
+    .getElementById("chatBox")
+    .classList.remove("show");
+
+}
+
+
+
+// Send Message
+
+
+function sendMessage(){
+
+
+let input=document.getElementById("userInput");
+
+
+let message=input.value.toLowerCase().trim();
+
+
+
+if(message==="")
+{
+    return;
+}
+
+
+
+let chatBody=document.getElementById("chatBody");
+
+
+
+// Display User Message
+
+
+chatBody.innerHTML += `
+
+<div class="user-msg">
+
+${input.value}
+
+</div>
+
+`;
+
+
+
+let reply="";
+
+
+
+// AI Replies
+
+
+if(message.includes("hi") || message.includes("hello"))
+{
+
+reply="Hello 👋 Welcome to SmartTravel. How can I help you?";
+
+}
+
+
+else if(message.includes("goa"))
+{
+
+reply="Goa Package 🌴<br>5 Days / 4 Nights<br>Starting from ₹14,999";
+
+}
+
+
+else if(message.includes("bali"))
+{
+
+reply="Bali Escape 🌊<br>5 Days / 4 Nights ⭐4.8<br>Price ₹28,999";
+
+}
+
+
+else if(message.includes("maldives"))
+{
+
+reply="Maldives Luxury 🏝️<br>4 Days / 3 Nights ⭐4.9<br>Price ₹49,999";
+
+}
+
+
+else if(message.includes("paris"))
+{
+
+reply="Paris Getaway 🗼<br>6 Days / 5 Nights ⭐4.7<br>Price ₹79,999";
+
+}
+
+
+else if(message.includes("package") || message.includes("tour"))
+{
+
+reply="Our packages include Goa, Bali, Maldives, Paris, Switzerland and Dubai.";
+
+}
+
+
+else if(message.includes("price") || message.includes("cost"))
+{
+
+reply="Packages start from ₹14,999.";
+
+}
+
+
+else if(message.includes("book"))
+{
+
+reply="Select your package and click Book Now to continue.";
+
+}
+
+
+else if(message.includes("hotel"))
+{
+
+reply="We provide comfortable hotels with trusted services.";
+
+}
+
+
+else if(message.includes("flight"))
+{
+
+reply="Flight facilities are available with selected packages.";
+
+}
+
+
+else if(message.includes("contact"))
+{
+
+reply="Please visit our Contact page for details.";
+
+}
+
+
+else if(message.includes("thank"))
+{
+
+reply="You're welcome 😊 Happy Journey ✈️";
+
+}
+
+
+else
+{
+
+reply="I can help you with packages, prices, destinations and booking.";
+
+}
+
+
+
+// Display Bot Reply
+
+
+chatBody.innerHTML += `
+
+<div class="bot-msg">
+
+${reply}
+
+</div>
+
+`;
+
+
+
+input.value="";
+
+chatBody.scrollTop=chatBody.scrollHeight;
+
+
+}
+
+
+
+// Enter Key Support
+
+
+document
+.getElementById("userInput")
+.addEventListener("keypress",function(e){
+
+
+if(e.key==="Enter")
+{
+
+sendMessage();
+
+}
+
+
+});
+</script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script>
+</body>
+</html>
