@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip | SmartTravel</title>
+
+    <link rel="stylesheet" href="booking.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<section class="booking">
+
+    <div class="booking-box">
+
+        <h2>Book Your Trip</h2>
+        <p>Complete your booking by filling in the details below.</p>
+
+        <form action="booking-success.html">
+
+            <div class="input-box">
+                <label>Destination</label>
+                <select>
+                    <option>Bali Escape</option>
+                    <option>Maldives Luxury</option>
+                    <option>Paris Getaway</option>
+                    <option>Swiss Adventure</option>
+                    <option>Dubai Adventure</option>
+                    <option>Goa Beach Tour</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+
+            <div class="input-box">
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="input-box">
+                <label>Mobile Number</label>
+                <input type="tel" placeholder="Enter your mobile number" required>
+            </div>
+
+            <div class="input-box">
+                <label>Travel Date</label>
+                <input type="date" required>
+            </div>
+
+            <div class="input-box">
+                <label>Number of Travelers</label>
+                <select>
+                    <option>1 Traveler</option>
+                    <option>2 Travelers</option>
+                    <option>3 Travelers</option>
+                    <option>4 Travelers</option>
+                    <option>5+ Travelers</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label>Package Price</label>
+                <input type="text" value="Starting from ₹18,999" readonly>
+            </div>
+
+            <button type="submit">Confirm Booking</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+</body>
+</html>

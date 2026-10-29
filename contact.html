@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - SmartTravel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <style>
+    .btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.contact-btn{
+    display: inline-block;
+    padding: 15px 40px;
+    background: #FFD166;
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.contact-btn:hover{
+    background: #0077b6;
+    color: #fff;
+    transform: translateY(-4px);
+}
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">
+    <img src="assets/images/logo.png" alt="SmartTravel Logo">
+    <span>SmartTravel</span>
+</a>
+    <nav class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="index.html#destinations">DESTINATION</a>
+        <a href="packages.html">PACKAGES</a>
+        <a href="index.html#ai">AI ASSISSTANT</a>
+        <a href="index.html#reviews">REVIEWS</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+</header>
+<section class="main-section ">
+  <div class="main-page">
+    
+    <h2>LET'S PLAN YOUR NEXT ADVENTURE</h2>
+    <p>Have questions about destinations, holiday packages, or bookings? <br>Our SmartTravel team is always ready to help you plan a memorable and hassle-free journey.<br> Contact us today, and let's make your dream trip a reality!</p>
+   <div class="view-all">
+        <a href="#contact">Get In Touch</a>
+    </div>
+  </div>
+   
+
+</section>
+
+<section class="contact" id="contact">
+    <div class="section-title">
+        <h2>Contact Us</h2>
+        <p>We're here to help you plan your next adventure.</p>
+    </div>
+    <div class="contact-container">
+        <form id="contactForm" class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="send">Send Message</button>
+        </form>
+        <!-- Contact Information -->
+        <div class="contact-info">
+
+            <div class="info">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h3>Address</h3>
+                    <p>Chennai, Tamil Nadu, India</p>
+                </div>
+            </div>
+
+            <div class="info">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <h3>Phone</h3>
+                    <p>+91 98765 43210</p>
+                </div>
+            </div>
+
+            <div class="info">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                    <h3>Email</h3>
+                    <p>support@smarttravel.com</p>
+                </div>
+            </div>
+
+            <div class="info">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                    <h3>Working Hours</h3>
+                    <p>Mon - Sat | 9 AM - 6 PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Google Map -->
+<section class="map-section">
+    <div class="section-title">
+        <h2>Find Us</h2>
+        <p>Visit our office or locate us easily.</p>
+    </div>
+    <iframe
+        src="https://www.google.com/maps?q=Chennai&output=embed"
+        loading="lazy">
+    </iframe>
+
+</section>
+<!-- Footer -->
+
+<footer class="footer" id="Contact">
+    <div class="footer-container">
+        <div class="footer-box">
+            <h2>SmartTravel</h2>
+            <p>
+                Explore the world with SmartTravel.
+                Book your dream vacation with ease
+                and enjoy unforgettable experiences.
+            </p>
+        </div>
+        <!-- Quick Links -->
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Destinations</a>
+            <a href="#">Packages</a>
+            <a href="#">Contact</a>
+        </div>
+        <!-- Contact -->
+        <div class="footer-box">
+            <h3>Contact Us</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Chennai, India</p>
+            <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+            <p><i class="fa-solid fa-envelope"></i> info@smarttravel.com</p>
+        </div>
+        <div class="footer-box">
+            <h3>Follow Us</h3>
+                <div class="social">
+                <a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a>
+                <a href="javascript:void(0)"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="javascript:void(0)"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>
+            © 2026 SmartTravel. All Rights Reserved.
+        </p>
+     </div>
+</footer>
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function(e){
+    e.preventDefault();
+
+    alert("✅ Your message has been sent successfully!");
+
+    this.reset();
+});
+</script>
+
+</body>
+</html>
